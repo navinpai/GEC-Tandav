@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="PHOCAGUESTBOOK LAYOUT">
+		<message>
+			<![CDATA[PHOCAGUESTBOOK LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>PHOCAGUESTBOOK LAYOUT</name>
+		<description>PHOCAGUESTBOOK LAYOUT DESC</description>
+		<url addpath="/administrator/components/com_phocaguestbook/elements">
+			<param name="id" type="phocaguestbook" section="com_phocaguestbook" default="0" label="Select Guestbook" description="Select Guestbook" />
+		</url>
+		
+		<params>
+			<param name="show_pagination" type="radio" default="1" label="Pagination" description="Show/Hide Pagination support">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			
+			<param name="show_pagination_limit" type="radio" default="1" label="Display Select" description="Show/Hide the Display Select dropdown">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			
+
+		</params>
+	</state>
+</metadata>

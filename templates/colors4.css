@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/*---------------------------------------------------
+Desidgned by Juergen Koller
+Designers Home: http://www.LernVid.com
+---------------------------------------------------*/
+
+.module h3, #sidebar_left h3, #sidebar_right h3 {
+	color: #ffc6c7;
+}
+.tool-text, a.contentpagetitle, .contentheading, a.latestnews:hover, a.mostread:hover, 
+.blogsection:hover, .readon:hover, #search_inner input:hover, a.pagenav:hover {
+	color: #ce0000 !important;	
+}
+a:hover, ul#mainlevel-nav li a:hover, ul#mainlevel-nav li a#active_menu-nav {
+	color : #ff0000;
+}
+.contentheading {
+	text-shadow: 0 1px 0 #ffc6c7, 0 -1px 0 #222;
+}
+ul#mainlevel-nav li a {
+	text-shadow: 0 1px 0 #ffc6c7, 0 -1px 0 #000;
+}
+#sidebar_left {
+	background-image : url(../images/style4/sidebar_left.jpg);
+}
+#search_inner input,
+#search_inner .inputbox {
+	background-image : url(../images/style4/search.png);
+}
+li:hover {
+	background-image : url(../images/style4/list_hover.png);
+}
+#navigation {
+	background-image:url('../images/style4/navi.gif');
+}
+#sidebar_left .module, #sidebar_left .module_menu, #sidebar_left .module_text, 
+#sidebar_right .module, #sidebar_right .module_menu, #sidebar_right .module_text, 
+#sidebar_left .module div div div, #sidebar_left .module_menu div div div, #sidebar_left .module_text div div div, 
+#sidebar_right .module div div div, #sidebar_right .module_menu div div div, #sidebar_right .module_text div div div {
+	background-image : url(../images/style4/module_bottom.gif);
+}
+.module h3, #sidebar_left h3, #sidebar_right h3 {
+	background-image : url(../images/style4/module_h3.gif);
+}

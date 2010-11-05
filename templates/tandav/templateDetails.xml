@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>dj_2_lernvid.com</name>
+	<creationDate>01.07.2010</creationDate>
+	<author>Juergen Koller</author>
+	<copyright>LernVid.com</copyright>
+	<authorEmail>webmaster@lernvid.com</authorEmail>
+	<authorUrl>http://www.lernvid.com</authorUrl>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	<hr>
+	<h1 style="padding:10px;">DJ 2 -  by LernVid.com</h1>
+	<p>Author <a href="http://lernvid.com" target="_blank">Lernvid.com - Lernvideos Tutorials Templates PSD-Files and more... </a>.</p>
+	<p>Its not allowed to delete the Backlink to the autor! More information: <a href="http://www.lernvid.com" target="_blank">www.lernvid.com </a>
+	<p">Licence =  Creative Commons Sharalike: <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">Creative Commons Lizenz Mulilanguage </a></p>
+	<p>LernVid.com wishes you much fun with the tamplate!</a></p>
+	<img src="../templates/dj_2_lernvid.com/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>head_includes.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>params.ini</filename>
+		<filename>js/hover.js</filename>
+		<filename>js/toggle.js</filename>
+		<filename>js/jq.css.switch.js</filename>
+		<filename>js/jquery-1.4.2.min.js</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>html/com_content/article/default.php</filename>
+		<filename>html/com_content/article/index.html</filename>
+		<filename>html/com_content/article/form.php</filename>
+		<filename>html/com_content/category/blog.php</filename>
+		<filename>html/com_content/category/blog_item.php</filename>
+		<filename>html/com_content/category/blog_links.php</filename>
+		<filename>html/com_content/category/index.html</filename>
+		<filename>html/com_content/category/default_items.php</filename>
+		<filename>html/com_content/category/default.php</filename>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/default_links.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/com_content/section/blog.php</filename>
+		<filename>html/com_content/section/blog_item.php</filename>
+		<filename>html/com_content/section/blog_links.php</filename>
+		<filename>html/com_content/section/default.php</filename>
+		<filename>html/com_content/section/index.html</filename>
+		<filename>html/com_content/index.html</filename>
+	</files>
+		<images>
+		<filename>images/article_separator.jpg</filename>
+		<filename>images/bg.jpg</filename>
+		<filename>images/bg_up.jpg</filename>
+		<filename>images/bottom.jpg</filename>
+		<filename>images/box.gif</filename>
+		<filename>images/button_bg.gif</filename>
+		<filename>images/button_bg_hover.gif</filename>
+		<filename>images/componentheading.jpg</filename>
+		<filename>images/container.jpg</filename>
+		<filename>images/contentheading.jpg</filename>
+		<filename>images/create.gif</filename>
+		<filename>images/createdby.gif</filename>
+		<filename>images/designed.gif</filename>
+		<filename>images/gotop.jpg</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/list.png</filename>
+		<filename>images/menu.jpg</filename>
+		<filename>images/menu_hover.jpg</filename>
+		<filename>images/modify.gif</filename>
+		<filename>images/module_bg.gif</filename>
+		<filename>images/toggle.png</filename>
+		<filename>images/user_h3.gif</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/sidebar_right.jpg</filename>
+		<filename>images/styles1.gif</filename>
+		<filename>images/styles2.gif</filename>
+		<filename>images/styles3.gif</filename>
+		<filename>images/styles4.gif</filename>
+		<filename>images/style1/list_hover.png</filename>
+		<filename>images/style1/module_bottom.gif</filename>
+		<filename>images/style1/module_h3.gif</filename>
+		<filename>images/style1/navi.gif</filename>
+		<filename>images/style1/search.png</filename>
+		<filename>images/style1/sidebar_left.jpg</filename>
+		<filename>images/style2/list_hover.png</filename>
+		<filename>images/style2/module_bottom.gif</filename>
+		<filename>images/style2/module_h3.gif</filename>
+		<filename>images/style2/navi.gif</filename>
+		<filename>images/style2/search.png</filename>
+		<filename>images/style2/sidebar_left.jpg</filename>
+		<filename>images/style3/list_hover.png</filename>
+		<filename>images/style3/module_bottom.gif</filename>
+		<filename>images/style3/module_h3.gif</filename>
+		<filename>images/style3/navi.gif</filename>
+		<filename>images/style3/search.png</filename>
+		<filename>images/style3/sidebar_left.jpg</filename>
+		<filename>images/style4/list_hover.png</filename>
+		<filename>images/style4/module_bottom.gif</filename>
+		<filename>images/style4/module_h3.gif</filename>
+		<filename>images/style4/navi.gif</filename>
+		<filename>images/style4/search.png</filename>
+		<filename>images/style4/sidebar_left.jpg</filename>
+		</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/colors1.css</filename>
+		<filename>css/colors2.css</filename>
+		<filename>css/colors3.css</filename>
+		<filename>css/colors4.css</filename>
+		<filename>css/ie5x6x.css</filename>
+		<filename>css/ie7.css</filename>
+	</css>
+	<params>		
+		<param name="showSitename" type="radio" default="0" label="Enable Sitename in Header" description="Here you can choose if the Joomla Sitename should be shown in the header or not.">
+		  <option value="1">Yes</option>
+		  <option value="0">No</option>
+		</param>
+		<param name="colorVariation" type="list" default="colors3" label="Default Color Variation" description="Choose the default color variation! --- It will be overwritten by a cookie if the stylechanger in the fronend is used">
+			<option value="colors1">Style 1</option>
+			<option value="colors2">Style 2</option>
+			<option value="colors3">Style 3</option>
+			<option value="colors4">Style 4</option>
+		</param>
+     	<param name="showStyleswitcher" type="radio" default="1" label="Show the Styleswitcher in the Header?" description="Here you can decide if you want to show the Styleswitcher in the Header to let your users switch the CSS color Styles.">
+	      <option value="1">Yes</option>
+	      <option value="0">No</option>
+	    </param>
+	</params>
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>headermodule</position>
+		<position>top1</position>
+		<position>top2</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+</install>

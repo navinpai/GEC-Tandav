@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/administrator/components/com_phocaguestbook/elements">
+	
+	
+	<param name="@phocahead" type="phocahead" default="FORM SETTINGS LABEL" />
+	
+	<param name="display_title_form" type="list" default="2" label="Display Title Form" description="Display Title Form DESC">
+		<option value="1">Yes</option>
+		<option value="2">Yes (Required)</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_name_form" type="list" default="2" label="Display Name Form" description="Display Name Form DESC">
+		<option value="1">Yes</option>
+		<option value="2">Yes (Required)</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_email_form" type="list" default="1" label="Display Email Form" description="Display Email Form DESC">
+		<option value="1">Yes</option>
+		<option value="2">Yes (Required)</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_website_form" type="list" default="0" label="Display Website Form" description="Display Website Form DESC">
+		<option value="1">Yes</option>
+		<option value="2">Yes (Required)</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_content_form" type="list" default="2" label="Display Content Form" description="Display Content Form DESC">
+		<option value="1">Yes</option>
+		<option value="2">Yes (Required)</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="enable_editor" type="list" default="1" label="Enable Javascript Editor" description="Enable Javascript Editor DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_path_editor" type="list" default="1" label="Display Path Editor" description="Display Path Editor DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param name="display_form" type="list" default="1" label="Display Form" description="Display Form DESC">
+		<option value="0">Hide</option>
+		<option value="1">Display</option>
+	</param>
+		
+	<param name="form_position" type="list" default="0" label="Form Position" description="Form Position DESC">
+		<option value="0">Top</option>
+		<option value="1">Bottom</option>
+	</param>
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param name="editor_width" default="400" size="6" type="phocatext" label="Editor Width" description="Editor Width DESC" />
+	<param name="editor_height" default="200" size="6" type="phocatext" label="Editor Height" description="Editor Height DESC" />
+	<param name="table_width" default="400" size="6" type="phocatext" label="Table Width" description="Table Width DESC" />
+
+	<param name="@phocahead" type="phocahead" default="GENERAL SETTINGS LABEL" />
+
+	<param name="predefined_name" default="" size="18" type="phocatext" label="Predefined Name" description="Predefined Name DESC" />	
+	
+	<param name="username_or_name" type="list" default="0" label="Username or Name" description="Username or Name DESC">
+		<option value="0">Username</option>
+		<option value="1">Name</option>
+	</param>
+	
+	<param name="disable_user_check" type="list" default="0" label="Disable User Check" description="Disable User Check DESC">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+	
+	<param name="registered_users_only" type="list" default="0" label="Registered Users Only" description="Registered Users Only DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+		
+	<param name="review_item" type="list" default="1" label="Review Item" description="Review Item DESC">
+		<option value="0">Yes</option>
+		<option value="1">No</option>
+	</param>
+		
+	<param name="send_mail" type="phocaguestbookemail" section="com_phocaguestbook" default="0" label="Send Email" description="Send Email DESC" />
+	
+	
+			
+	<param name="@phocahead" type="phocahead" default="POST SETTINGS LABEL" />
+		
+	<param name="display_name" type="list" default="1" label="Display Name Message" description="Display Name Message DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_email" type="list" default="1" label="Display Email Message" description="Display Email Message DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="display_website" type="list" default="1" label="Display Website Message" description="Display Website Message DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+		
+	<param name="date_format" type="list" default="DATE_FORMAT_LC" label="Date Format" description="Date Format DESC">
+		<option value="DATE_FORMAT_LC">DATE_FORMAT_LC</option>
+		<option value="DATE_FORMAT_LC1">DATE_FORMAT_LC1</option>
+		<option value="DATE_FORMAT_LC2">DATE_FORMAT_LC2</option>
+		<option value="DATE_FORMAT_LC3">DATE_FORMAT_LC3</option>
+		<option value="DATE_FORMAT_LC4">DATE_FORMAT_LC4</option>
+		<option value="1">%d. %B %Y</option>
+		<option value="2">%d/%m/%y</option>
+		<option value="3">%d. %m. %Y</option>
+	</param>		
+			
+			
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param name="font_color" default="#000000" size="10" type="phocacolortext" label="Font Color" description="Font Color DESC" />
+	<param name="second_font_color" default="#dddddd" size="10" type="phocacolortext" label="Second Font Color" description="Second Font Color DESC" />
+	<param name="background_color" default="#C8DFF9" size="10" type="phocacolortext" label="Background Color" description="Background Color DESC" />
+	<param name="border_color" default="#E6E6E6" size="10" type="phocacolortext" label="Border Color" description="Border Color DESC" />
+	
+	<param name="default_pagination" default="0" size="18" type="phocatext" label="Default Value Pagination" description="Default Value Pagination DESC" />
+	<param name="pagination" default="5,10,15,20,50" size="18" type="phocatext" label="Pagination" description="Pagination DESC" />	
+	
+	<param name="pagination_hide_all" type="list" default="1" label="Pagination Hide All" description="Pagination Hide All DESC">
+		<option value="1">Yes</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="@phocahead" type="phocahead" default="SECURITY SETTINGS LABEL" />
+
+	<param name="forbidden_word_filter" type="phocatextarea" rows="5" cols="40" default="" label="Forbidden Word Filter" description="Forbidden Word Filter DESC" />
+	<param name="forbidden_whole_word_filter" type="phocatextarea" rows="5" cols="40" default="" label="Forbidden Whole Word Filter" description="Forbidden Whole Word Filter DESC" />
+	<param name="ip_ban" type="phocatextarea" rows="5" cols="40" default="" label="IP Ban" description="IP Ban DESC" />
+	<param name="max_char" default="2000" size="6" type="phocatext" label="Maximum Characters" description="Maximum Characters DESC" />
+	<param name="max_url" default="5" size="6" type="phocatext" label="Maximum URL" description="Maximum URL DESC" />
+	
+	<param name="deny_url_words" type="phocatextarea" rows="5" cols="40" default="" label="URL Identification Words" description="URL Identification Words DESC" />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param name="enable_captcha" type="list" default="1" label="Enable Captcha" description="Enable Captcha DESC">
+		<option value="1">Standard Captcha</option>
+		<option value="2">Math Captcha</option>
+		<option value="3">TTF Captcha</option>
+		<option value="10">Random (Standard, Math, TTF)</option>
+		<option value="11">Random (Standard, Math)</option>
+		<option value="12">Random (Standard, TTF)</option>
+		<option value="13">Random (Math, TTF)</option>
+		<option value="0">No</option>
+	</param>
+	
+	<param name="enable_captcha_users" type="list" default="0" label="Enable Captcha Users" description="Enable Captcha Users DESC">
+		<option value="0">All</option>
+		<option value="1">Not Registered</option>
+	</param>
+	
+	<param name="standard_captcha_chars" type="phocatextarea" rows="3" cols="40" default="1,2,3,4,5,6,7,8,9, a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" label="Standard Captcha Characters" description="Standard Captcha Characters DESC" />
+	<param name="math_captcha_chars" type="phocatextarea" rows="3" cols="40" default="1,2,3,4,5,6,7,8,9, a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" label="Math Captcha Characters" description="Math Captcha Characters DESC" />
+	<param name="ttf_captcha_chars" type="phocatextarea" rows="3" cols="40" default="1,2,3,4,5,6,7,8,9, a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" label="TTF Captcha Characters" description="TTF Captcha Characters DESC" />
+	
+	<param name="captcha_method" type="list" default="1" label="Captcha Displaying Method" description="Captcha Displaying Method DESC">
+		<option value="0">JRoute</option>
+		<option value="1">JHTML</option>
+	</param>
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+	<param name="enable_html_purifier" type="list" default="1" label="Enable HTML Purifier" description="Enable HTML Purifier DESC">
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+	</param>
+		
+	</params>
+</config>

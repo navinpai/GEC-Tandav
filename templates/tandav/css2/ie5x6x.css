@@ -1,0 +1,43 @@
+﻿/* ==============================
+   1. Schriftgröße definieren  */   
+
+body { font-size: x-small; }
+
+
+/* ==============================
+   2. Zentrierung von #wrapper */
+
+body { 
+	text-align: center; 
+}
+#wrapper { 
+	text-align: left; 
+	width: 1000px;
+}
+#container { 
+	text-align: left; 
+	width: 1000px;
+}
+#container2 { 
+	text-align: left; 
+	width: 1000px;
+}
+#content {
+	width: auto;
+}
+table.moduletable th, div.moduletable h3, .moduletable_text h3, .moduletable_menu h3 {
+	width: auto;
+	font-size: 11px;
+}
+li {
+	background-image : none;
+}
+li:hover {
+	background-image : none;
+}
+.blog_more ul li {
+	background-image:none;
+}
+#box {
+	position: relative;
+}
